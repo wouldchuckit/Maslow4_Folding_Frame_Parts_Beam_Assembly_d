@@ -209,6 +209,10 @@
         {
           "name": "Shape 13",
           "ioValue": null
+        },
+        {
+          "name": "Shape 14",
+          "ioValue": null
         }
       ]
     },
@@ -23998,6 +24002,334 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6477885652642934,
+      "y": 0.4849884526558892,
+      "uniqueID": "id-38170",
+      "name": "2by4SpoilboardBlock",
+      "ioValues": [
+        {
+          "name": "BeamLength",
+          "ioValue": 2438
+        },
+        {
+          "name": "BeamHeight",
+          "ioValue": 203
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-38171"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.4255663430420712,
+          "y": 0.815242494226328,
+          "uniqueID": "id-38172",
+          "name": "x/16",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 2438
+            }
+          ],
+          "currentEquation": "x/16"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6127292340884574,
+          "y": 0.7136258660508084,
+          "uniqueID": "id-38173",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6913160733549083,
+          "y": 0.8114318706697459,
+          "uniqueID": "id-38174",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -76.1875
+            },
+            {
+              "name": "yDist",
+              "ioValue": 57
+            },
+            {
+              "name": "zDist",
+              "ioValue": -19
+            }
+          ]
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.5215749730312838,
+          "y": 0.7829099307159354,
+          "uniqueID": "id-38175",
+          "value": -19
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5258899676375405,
+          "y": 0.9284064665127021,
+          "uniqueID": "id-38176",
+          "name": "-x/2",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 152.375
+            }
+          ],
+          "currentEquation": "-x/2"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.6121898597626754,
+          "y": 0.5103926096997691,
+          "uniqueID": "id-38177",
+          "name": ".5*x - y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 203
+            },
+            {
+              "name": "y",
+              "ioValue": 44.5
+            }
+          ],
+          "currentEquation": ".5*x - y"
+        },
+        {
+          "atomType": "Constant",
+          "x": 0.5183387270765911,
+          "y": 0.6928406466512702,
+          "uniqueID": "id-38178",
+          "name": "Constant_1",
+          "value": 44.5
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.10999999999999999,
+          "uniqueID": "id-38186",
+          "name": "BeamLength",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-38187",
+          "name": "BeamHeight",
+          "type": "number"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.5140237324703344,
+          "y": 0.5889145496535797,
+          "uniqueID": "id-38179",
+          "name": "2_by_4_lumber",
+          "ioValues": [
+            {
+              "name": "2by4Length",
+              "ioValue": 152.375
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-38180"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.1844660194174757,
+              "y": 0.11316397228637413,
+              "uniqueID": "id-38181",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 38
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 89
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.01815,
+              "y": 0.10999999999999999,
+              "uniqueID": "id-38182",
+              "name": "2by4Length",
+              "type": "number"
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.3149946062567422,
+              "y": 0.22170900692840645,
+              "uniqueID": "id-38183",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 152.375
+                }
+              ]
+            },
+            {
+              "atomType": "Constant",
+              "x": 0.10517799352750809,
+              "y": 0.3302540415704388,
+              "uniqueID": "id-38184",
+              "name": "2by4width",
+              "value": 38
+            },
+            {
+              "atomType": "Constant",
+              "x": 0.0965480043149946,
+              "y": 0.5103926096997691,
+              "uniqueID": "id-38185",
+              "name": "2by4height",
+              "value": 89
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-38181",
+              "ap2ID": "id-38183"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-38182",
+              "ap2ID": "id-38183"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-38183",
+              "ap2ID": "id-38180"
+            },
+            {
+              "ap2Name": "x length",
+              "ap1ID": "id-38184",
+              "ap2ID": "id-38181"
+            },
+            {
+              "ap2Name": "y length",
+              "ap1ID": "id-38185",
+              "ap2ID": "id-38181"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "2_by_4_lumber",
+            "dateCreated": "2025-12-19T07:01:50Z",
+            "readMe": "https://raw.githubusercontent.com/wouldchuckit/2_by_4_lumber/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "id-4",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/wouldchuckit/2_by_4_lumber",
+            "topics": [
+              "hardware",
+              "lumber"
+            ],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739604",
+            "ranking": 0,
+            "searchField": "2_by_4_lumber wouldchuckit a two by four 2x4 stud lumber not complicated.  hardware lumber",
+            "owner": "wouldchuckit",
+            "description": "a two by four 2x4 stud lumber Not complicated. ",
+            "contentURL": "https://raw.githubusercontent.com/wouldchuckit/2_by_4_lumber/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/wouldchuckit/2_by_4_lumber/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "2by4Length",
+          "ap1ID": "id-38172",
+          "ap2ID": "id-38179"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-38172",
+          "ap2ID": "id-38176"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-38173",
+          "ap2ID": "id-38174"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-38174",
+          "ap2ID": "id-38171"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-38175",
+          "ap2ID": "id-38174"
+        },
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-38176",
+          "ap2ID": "id-38174"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-38177",
+          "ap2ID": "id-38174"
+        },
+        {
+          "ap2Name": "y",
+          "ap1ID": "id-38178",
+          "ap2ID": "id-38177"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-38186",
+          "ap2ID": "id-38172"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-38187",
+          "ap2ID": "id-38177"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-38179",
+          "ap2ID": "id-38173"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -24082,6 +24414,11 @@
       "ap2ID": "id-35106"
     },
     {
+      "ap2Name": "BeamLength",
+      "ap1ID": "id-3913",
+      "ap2ID": "id-38170"
+    },
+    {
       "ap2Name": "y",
       "ap1ID": "id-3916",
       "ap2ID": "id-9236"
@@ -24125,6 +24462,11 @@
       "ap2Name": "BeamHeight",
       "ap1ID": "id-3916",
       "ap2ID": "id-35106"
+    },
+    {
+      "ap2Name": "BeamHeight",
+      "ap1ID": "id-3916",
+      "ap2ID": "id-38170"
     },
     {
       "ap2Name": "TopHeight",
@@ -24344,6 +24686,11 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-28876",
+      "ap2ID": "id-9189"
+    },
+    {
+      "ap2Name": "Shape 14",
+      "ap1ID": "id-38170",
       "ap2ID": "id-9189"
     }
   ],
